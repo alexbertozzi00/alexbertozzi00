@@ -1,22 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" role="img" aria-label="Terminal neofetch: Alexandre Bertozzi">
- <defs><linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#c084fc"/></linearGradient></defs>
- <rect width="1000" height="440" rx="18" fill="#0d1117"/>
- <rect x="1" y="1" width="998" height="438" rx="17" fill="none" stroke="#30363d" stroke-width="2"/>
- <rect x="1" y="1" width="998" height="44" rx="17" fill="#161b22"/>
- <rect x="1" y="26" width="998" height="20" fill="#161b22"/>
- <circle cx="24" cy="23" r="6" fill="#ff5f57"/><circle cx="45" cy="23" r="6" fill="#febc2e"/><circle cx="66" cy="23" r="6" fill="#28c840"/>
- <g font-family="monospace" font-size="15" fill="#8b949e"><text x="405" y="28">alexbertozzi00 ~ /profile</text></g>
- <g font-family="monospace" font-weight="bold" fill="url(#gradient)" font-size="29">
-  <text x="55" y="155">  ╱╲</text><text x="55" y="191"> ╱  ╲</text><text x="55" y="227">╱ ╱╲ ╲</text><text x="55" y="263">╲ ╲╱ ╱</text><text x="55" y="299"> ╲  ╱</text><text x="55" y="335">  ╲╱</text>
- </g>
- <g font-family="monospace" font-size="20">
-  <text x="365" y="108" fill="#f0a6ff" font-weight="bold">alexbertozzi00@github</text>
-  <line x1="365" y1="121" x2="928" y2="121" stroke="#30363d"/>
-  <text x="365" y="162" fill="#58a6ff">Name</text><text x="505" y="162" fill="#c9d1d9">Alexandre Bertozzi</text>
-  <text x="365" y="201" fill="#58a6ff">Focus</text><text x="505" y="201" fill="#c9d1d9">Tecnologia, estratégia</text>
-  <text x="365" y="240" fill="#58a6ff">Interests</text><text x="505" y="240" fill="#c9d1d9">Automação, sistemas, IA</text>
-  <text x="365" y="279" fill="#58a6ff">Platform</text><text x="505" y="279" fill="#c9d1d9">GitHub</text>
-  <text x="365" y="318" fill="#58a6ff">Status</text><text x="505" y="318" fill="#3fb950">building &amp; learning</text>
- </g>
- <g><rect x="365" y="361" width="49" height="17" rx="3" fill="#f87171"/><rect x="419" y="361" width="49" height="17" rx="3" fill="#fb923c"/><rect x="473" y="361" width="49" height="17" rx="3" fill="#facc15"/><rect x="527" y="361" width="49" height="17" rx="3" fill="#4ade80"/><rect x="581" y="361" width="49" height="17" rx="3" fill="#38bdf8"/><rect x="635" y="361" width="49" height="17" rx="3" fill="#818cf8"/><rect x="689" y="361" width="49" height="17" rx="3" fill="#c084fc"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">Alexandre Bertozzi — terminal de perfil</title>
+<desc id="desc">Neofetch personalizado com monograma AB e informações sobre Alexandre Bertozzi.</desc>
+<defs>
+  <linearGradient id="wave" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="360" y2="200" spreadMethod="repeat">
+    <stop offset="0" stop-color="#67e8f9"/>
+    <stop offset=".5" stop-color="#a78bfa"/>
+    <stop offset="1" stop-color="#67e8f9"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="360 200" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#16212b" stroke-width=".6"/>
+  </pattern>
+  <style><![CDATA[
+    text{font-family:"JetBrains Mono","Cascadia Code","Fira Code",Consolas,"DejaVu Sans Mono",monospace}
+    .row{opacity:0;animation:show .55s ease-out forwards}
+    .cursor{animation:blink 1.05s steps(1,end) infinite}
+    .prompt{opacity:0;animation:show .6s ease-out 1.4s forwards}
+    @keyframes show{to{opacity:1}}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.row,.cursor,.prompt{animation:none;opacity:1}}
+  ]]></style>
+</defs>
+<rect width="1200" height="600" rx="16" fill="#0d1117"/>
+<rect x="1" y="1" width="1198" height="598" rx="15" fill="none" stroke="#30363d" stroke-width="2"/>
+<path d="M16 0H1184Q1200 0 1200 16V52H0V16Q0 0 16 0Z" fill="#161b22"/>
+<path d="M0 52H1200" stroke="#30363d"/>
+<circle cx="27" cy="26" r="7" fill="#ff5f57"/>
+<circle cx="51" cy="26" r="7" fill="#febc2e"/>
+<circle cx="75" cy="26" r="7" fill="#28c840"/>
+<text x="600" y="32" text-anchor="middle" font-size="15" fill="#8b949e">alexbertozzi00 — ~/profile</text>
+<text x="32" y="98" font-size="18"><tspan fill="#7ee787" font-weight="bold">alexbertozzi00@github</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> neofetch --custom</tspan></text>
+<rect x="32" y="122" width="422" height="404" rx="10" fill="#0f1821" opacity=".7"/>
+<rect x="32" y="122" width="422" height="404" rx="10" fill="url(#grid)" opacity=".8"/>
+<text x="48" y="148" font-size="11" fill="#64748b" letter-spacing="3">ALEXANDRE / BERTOZZI</text>
+<text x="51" y="176" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">        ██████                ████████████████</text>
+<text x="51" y="193.2" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">        ██████                ████████████████</text>
+<text x="51" y="210.4" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">      ████  ████              ████          ████</text>
+<text x="51" y="227.6" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">      ████  ████              ████          ████</text>
+<text x="51" y="244.8" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">    ████      ████            ████          ████</text>
+<text x="51" y="262" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">    ████      ████            ████          ████</text>
+<text x="51" y="279.2" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████████████████</text>
+<text x="51" y="296.4" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████████████████</text>
+<text x="51" y="313.6" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████          ████</text>
+<text x="51" y="330.79999999999995" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████          ████</text>
+<text x="51" y="348" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ██████████████████          ████          ████</text>
+<text x="51" y="365.2" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ██████████████████          ████          ████</text>
+<text x="51" y="382.4" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████          ████</text>
+<text x="51" y="399.6" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████          ████</text>
+<text x="51" y="416.79999999999995" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████          ████</text>
+<text x="51" y="434" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████          ████</text>
+<text x="51" y="451.2" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████████████████</text>
+<text x="51" y="468.4" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████          ████████████████</text>
+<text x="51" y="485.59999999999997" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████</text>
+<text x="51" y="502.8" font-size="14.7" letter-spacing="0" fill="url(#wave)" xml:space="preserve">  ████          ████</text>
+<text x="505" y="158" font-size="21" fill="#ffb86c" font-weight="bold">alexbertozzi00@github</text>
+<path d="M505 177H1159" stroke="#30363d" stroke-width="1.5"/>
+<text x="505" y="196" font-size="11" fill="#8b949e" letter-spacing="3">IDENTIDADE · PROCESSO · TECNOLOGIA</text>
+<g class="row" style="animation-delay:0.12s"><text x="505" y="235" font-size="17" fill="#79c0ff" font-weight="bold">Nome</text><text x="648" y="235" font-size="17" fill="#6e7681">:</text><text x="673" y="235" font-size="17" fill="#e6edf3">Alexandre Bertozzi</text></g>
+<g class="row" style="animation-delay:0.22s"><text x="505" y="262" font-size="17" fill="#79c0ff" font-weight="bold">Perfil</text><text x="648" y="262" font-size="17" fill="#6e7681">:</text><text x="673" y="262" font-size="17" fill="#e6edf3">Estratégia × Tecnologia</text></g>
+<g class="row" style="animation-delay:0.32s"><text x="505" y="289" font-size="17" fill="#79c0ff" font-weight="bold">Kernel</text><text x="648" y="289" font-size="17" fill="#6e7681">:</text><text x="673" y="289" font-size="17" fill="#e6edf3">Sistemas · Gestão · Processos</text></g>
+<g class="row" style="animation-delay:0.42s"><text x="505" y="316" font-size="17" fill="#79c0ff" font-weight="bold">Runtime</text><text x="648" y="316" font-size="17" fill="#6e7681">:</text><text x="673" y="316" font-size="17" fill="#e6edf3">Automação · APIs · Integrações</text></g>
+<g class="row" style="animation-delay:0.52s"><text x="505" y="343" font-size="17" fill="#79c0ff" font-weight="bold">Stack</text><text x="648" y="343" font-size="17" fill="#6e7681">:</text><text x="673" y="343" font-size="17" fill="#e6edf3">Python · Java · Git</text></g>
+<g class="row" style="animation-delay:0.62s"><text x="505" y="370" font-size="17" fill="#79c0ff" font-weight="bold">Tools</text><text x="648" y="370" font-size="17" fill="#6e7681">:</text><text x="673" y="370" font-size="17" fill="#e6edf3">GitHub · VS Code · Claude Code</text></g>
+<g class="row" style="animation-delay:0.72s"><text x="505" y="397" font-size="17" fill="#79c0ff" font-weight="bold">Projetos</text><text x="648" y="397" font-size="17" fill="#6e7681">:</text><text x="673" y="397" font-size="17" fill="#e6edf3">Bots · Webhooks · Ferramentas</text></g>
+<g class="row" style="animation-delay:0.82s"><text x="505" y="424" font-size="17" fill="#79c0ff" font-weight="bold">Idioma</text><text x="648" y="424" font-size="17" fill="#6e7681">:</text><text x="673" y="424" font-size="17" fill="#e6edf3">Português (BR)</text></g>
+<g class="row" style="animation-delay:0.92s"><text x="505" y="451" font-size="17" fill="#79c0ff" font-weight="bold">Método</text><text x="648" y="451" font-size="17" fill="#6e7681">:</text><text x="673" y="451" font-size="17" fill="#e6edf3">Questionar → testar → evoluir</text></g>
+<g class="row" style="animation-delay:1.02s"><text x="505" y="478" font-size="17" fill="#79c0ff" font-weight="bold">Status</text><text x="648" y="478" font-size="17" fill="#6e7681">:</text><text x="673" y="478" font-size="17" fill="#7ee787">Em construção contínua</text></g>
+<rect x="505" y="520" width="25" height="17" rx="3" fill="#ff7b72"/>
+<rect x="536" y="520" width="25" height="17" rx="3" fill="#ffa657"/>
+<rect x="567" y="520" width="25" height="17" rx="3" fill="#e3b341"/>
+<rect x="598" y="520" width="25" height="17" rx="3" fill="#7ee787"/>
+<rect x="629" y="520" width="25" height="17" rx="3" fill="#79c0ff"/>
+<rect x="660" y="520" width="25" height="17" rx="3" fill="#58a6ff"/>
+<rect x="691" y="520" width="25" height="17" rx="3" fill="#bc8cff"/>
+<rect x="722" y="520" width="25" height="17" rx="3" fill="#ff7eb6"/>
+<path d="M32 550H1168" stroke="#30363d" stroke-width="1"/>
+<g class="prompt"><text x="32" y="577" font-size="17"><tspan fill="#7ee787" font-weight="bold">alexbertozzi00@github</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> construir --questionar --iterar </tspan><tspan fill="#a78bfa" class="cursor">█</tspan></text></g>
+<text x="1166" y="577" font-size="12" fill="#64748b" text-anchor="end">v2.0 · AB</text>
 </svg>
