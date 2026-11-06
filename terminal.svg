@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" role="img" aria-label="Terminal neofetch: Alexandre Bertozzi">
+ <defs><linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#c084fc"/></linearGradient></defs>
+ <rect width="1000" height="440" rx="18" fill="#0d1117"/>
+ <rect x="1" y="1" width="998" height="438" rx="17" fill="none" stroke="#30363d" stroke-width="2"/>
+ <rect x="1" y="1" width="998" height="44" rx="17" fill="#161b22"/>
+ <rect x="1" y="26" width="998" height="20" fill="#161b22"/>
+ <circle cx="24" cy="23" r="6" fill="#ff5f57"/><circle cx="45" cy="23" r="6" fill="#febc2e"/><circle cx="66" cy="23" r="6" fill="#28c840"/>
+ <g font-family="monospace" font-size="15" fill="#8b949e"><text x="405" y="28">alexbertozzi00 ~ /profile</text></g>
+ <g font-family="monospace" font-weight="bold" fill="url(#gradient)" font-size="29">
+  <text x="55" y="155">  ╱╲</text><text x="55" y="191"> ╱  ╲</text><text x="55" y="227">╱ ╱╲ ╲</text><text x="55" y="263">╲ ╲╱ ╱</text><text x="55" y="299"> ╲  ╱</text><text x="55" y="335">  ╲╱</text>
+ </g>
+ <g font-family="monospace" font-size="20">
+  <text x="365" y="108" fill="#f0a6ff" font-weight="bold">alexbertozzi00@github</text>
+  <line x1="365" y1="121" x2="928" y2="121" stroke="#30363d"/>
+  <text x="365" y="162" fill="#58a6ff">Name</text><text x="505" y="162" fill="#c9d1d9">Alexandre Bertozzi</text>
+  <text x="365" y="201" fill="#58a6ff">Focus</text><text x="505" y="201" fill="#c9d1d9">Tecnologia, estratégia</text>
+  <text x="365" y="240" fill="#58a6ff">Interests</text><text x="505" y="240" fill="#c9d1d9">Automação, sistemas, IA</text>
+  <text x="365" y="279" fill="#58a6ff">Platform</text><text x="505" y="279" fill="#c9d1d9">GitHub</text>
+  <text x="365" y="318" fill="#58a6ff">Status</text><text x="505" y="318" fill="#3fb950">building &amp; learning</text>
+ </g>
+ <g><rect x="365" y="361" width="49" height="17" rx="3" fill="#f87171"/><rect x="419" y="361" width="49" height="17" rx="3" fill="#fb923c"/><rect x="473" y="361" width="49" height="17" rx="3" fill="#facc15"/><rect x="527" y="361" width="49" height="17" rx="3" fill="#4ade80"/><rect x="581" y="361" width="49" height="17" rx="3" fill="#38bdf8"/><rect x="635" y="361" width="49" height="17" rx="3" fill="#818cf8"/><rect x="689" y="361" width="49" height="17" rx="3" fill="#c084fc"/></g>
+</svg>
